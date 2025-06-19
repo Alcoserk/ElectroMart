@@ -1,0 +1,26 @@
+# 🧾 Laravel API: игнорируем лишнее
+/electromart-api/vendor/
+/electromart-api/node_modules/
+/electromart-api/storage/*.key
+/electromart-api/.env
+/electromart-api/.phpunit.result.cache
+/electromart-api/bootstrap/cache/*.php
+/electromart-api/storage/logs/*.log
+/electromart-api/storage/framework/cache/*
+/electromart-api/storage/framework/sessions/*
+/electromart-api/storage/framework/views/*
+
+
+# ⛔ Windows / Mac system files
+Thumbs.db
+.DS_Store
+
+# 🚫 IDE и редакторы
+.vscode/
+.idea/
+
+# 🐘 Composer lock-файл — НЕ ИГНОРИРУЙ, он нужен!
+# /electromart-api/composer.lock  ← ОСТАВЬ! Его НЕ надо игнорировать!
+
+# 🛠 Laravel тесты
+/electromart-api/tests/*.log
